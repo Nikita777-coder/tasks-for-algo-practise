@@ -3,4 +3,4 @@ project(proj)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(proj tasks/ternary-operators/number-of-max-combination/test_generater.cpp)
+add_executable(proj tasks/ternary-operators/odd-even-number/test_generater.cpp)
