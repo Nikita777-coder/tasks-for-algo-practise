@@ -3,4 +3,4 @@ project(proj)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(proj tasks/switch/apple-classification/decision.cpp)
+add_executable(proj tasks/switch/chess-elephant/test_generater.cpp)
