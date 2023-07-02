@@ -14,7 +14,7 @@ int64_t getSum(int n, const std::vector<int> &nums) {
     int64_t sum = 0;
 
     for (int j = 0; j < n; ++j) {
-        sum += nums[i];
+        sum += nums[j];
     }
 
     return sum;
