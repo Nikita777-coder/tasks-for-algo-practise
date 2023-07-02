@@ -103,7 +103,7 @@ int main() {
 
     // 2
     ofstream.open(const_path + std::to_string(i));
-    ofstream << 4 << '\n' << 1.348 << ' ' << 2.594939 << ' ' << 3.3434 << ' ' << 4.3434;
+    ofstream << 1.348 << ' ' << 2.594939 << ' ' << 3.3434 << ' ' << 4.3434;
     ofstream.close();
     ofstream.open(const_path + std::to_string(i++) + ".a");
     res = getMinAndMax(4, {1.348, 2.594939, 3.3434, 4.3434});
