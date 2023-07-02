@@ -60,6 +60,7 @@ void limitTest(bool negative) {
     ofstream.open(const_path + std::to_string(i));
 
     int n = 100;
+    ofstream << n << '\n';
 
     for (int k = 0; k < n; ++k) {
         int num;
