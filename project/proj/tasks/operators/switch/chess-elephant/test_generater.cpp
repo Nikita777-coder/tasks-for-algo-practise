@@ -4,7 +4,7 @@
 
 std::ofstream ofstream;
 int i = 1;
-std::string const_path = "../tasks/switch/chess-elephant/tests/0";
+std::string const_path = "../tasks/operators/switch/chess-elephant/tests/0";
 std::random_device rd;
 std::mt19937 rng(rd());
 std::uniform_int_distribution<int> dis(1, 8);

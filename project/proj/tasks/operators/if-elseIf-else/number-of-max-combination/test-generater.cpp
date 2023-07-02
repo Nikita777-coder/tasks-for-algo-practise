@@ -22,7 +22,7 @@ int getNumberOfMaxComb(int a, int b, int c) {
 int main() {
     std::ofstream ofstream;
     int i = 1;
-    std::string const_path = "../tasks/if-elseIf-else/number-of-max-combination/tests/0";
+    std::string const_path = "../tasks/operators/if-elseIf-else/number-of-max-combination/tests/0";
     std::random_device rd;
     std::mt19937 rng(rd());
     std::uniform_int_distribution<int> dis_first(1, 3), dis_second(5, 10), dis_third(1, 100);

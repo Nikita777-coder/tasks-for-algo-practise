@@ -4,7 +4,7 @@
 
 std::ofstream ofstream;
 int i = 1;
-std::string const_path = "../tasks/if-elseIf-else/final-grade/tests/0";
+std::string const_path = "../tasks/operators/if-elseIf-else/final-grade/tests/0";
 std::random_device rd;
 std::mt19937 rng(rd());
 std::uniform_int_distribution<int> dis_ex_first(20, 50), dis_ex_second(20, 100);
