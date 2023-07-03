@@ -3,4 +3,4 @@ project(proj)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(proj tasks/linear_alghorithms/elemnt_occur_more_half_other_even_occur/simple_task/test_generater.cpp)
+add_executable(proj tasks/linear_alghorithms/elemnt_occur_more_half_other_even_occur/element_which_occurence_only_once/test_generater.cpp)
