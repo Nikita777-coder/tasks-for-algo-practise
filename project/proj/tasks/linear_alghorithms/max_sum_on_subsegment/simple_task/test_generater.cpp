@@ -61,6 +61,8 @@ void limitTest(bool min) {
         n = 1;
     }
 
+    ofstream << n << '\n';
+
     for (int p = 0; p < n; ++p) {
         nums[p] = min ? -10000 : 10000;
         ofstream << nums[p] << ' ';
