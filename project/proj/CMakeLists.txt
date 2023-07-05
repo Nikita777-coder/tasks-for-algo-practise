@@ -3,4 +3,4 @@ project(proj)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(proj tasks/program_structure/splitting_programm_to_files/decision.cpp)
+add_executable(proj tasks/program_structure/header_file/test_generater.cpp)
