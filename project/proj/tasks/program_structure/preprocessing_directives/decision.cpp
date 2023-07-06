@@ -14,7 +14,7 @@ int main() {
 #endif
     }
 
-    if (n > 38 && n < 9000) {
+    if (n > 38 && n < 5000000) {
 #ifndef UG
         std::cout << "Поехали!\n";
 #define UG
